@@ -90,16 +90,16 @@ select {
 }
 
 .navBar_img_div {
-   display: inline-block;
-   border: 1px solid blue;
-    height: 25%;
-    width: 25%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
     
 }
 .navBar_img {
-    border-radius: 50%;
-    height: 50%;
-    width: 50%;
+  width:100%;
+  
 }
 .navBar_list_div {
     align-self: center;
