@@ -1,9 +1,4 @@
 
-
-.darkMode_toggle {
-    align-self: flex-end;
-}
-
 body{
   background-color: rgb(236, 230, 221);
 }
@@ -14,8 +9,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     border: 5px dotted red;
-    background-color:cornflowerblue ;
-    color: cornsilk;
+    background-color:rgb(145, 178, 240) ;
     margin: 0% 5%;
     position: fixed;
     z-index: 1;
@@ -33,8 +27,11 @@ body{
   width:100%;
   
 }
-.navBar_list_div {
- 
+.navBar_list_div a {
+  color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
