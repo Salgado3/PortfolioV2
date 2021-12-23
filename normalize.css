@@ -1,6 +1,6 @@
 *{box-sizing:border-box;}
-html,body{width:100%;min-height:100vh; font-size:16px;margin:0;padding:0;color:#000;background:#eaedf1;}
-html{text-rendering:optimizeLegibility !important;}
+html,body{width:100%;min-height:100vh; font-size:16px;margin:0;padding:0;color:#000;}
+html{text-rendering:optimizeLegibility !important; scroll-behavior:smooth;}
 body{letter-spacing:0.1rem;}
 
 h1{margin:0; font-size:4rem; }
