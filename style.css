@@ -96,7 +96,7 @@ margin: 0% 5%;
   margin-left: 2%;
   text-align: justify;
   border: 2px dotted red;
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .project_individual_description h3{
@@ -122,5 +122,14 @@ margin: 0% 5%;
 /* footer  */
 .socials_div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin: 0% 5%;
+}
+
+.socials_div img {
+  height: 28px;
+}
+.socials_div img:hover {
+background: rgb(9, 234, 255);
+border-radius: 50%;
 }
