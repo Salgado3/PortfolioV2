@@ -63,7 +63,7 @@ margin: 0% 5%;
 
 .project_individual_container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   border: 3px solid rgb(70, 226, 43);
 }
 
