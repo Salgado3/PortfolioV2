@@ -61,10 +61,21 @@ margin: 0% 5%;
   text-align: justify;
 }
 
+.projects_div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 10px dotted royalblue;
+}
+
 .project_individual_container {
   display: flex;
-  justify-content: flex-start;
-  border: 3px solid rgb(70, 226, 43);
+  width: 50%;
+  flex-direction: column;
+  /* flex-basis: 50%; */
+  flex: 1;
+  border: 3px solid rgb(238, 33, 152);
 }
 
 .project_individual_img {
@@ -82,11 +93,9 @@ margin: 0% 5%;
 .project_imgs {
   width:100%;
   border: 3px solid black;
-  flex-basis: 50%;
   opacity: .95;
 }
 .project_imgs:hover {
-  
   opacity: 1;
 }
 
@@ -94,14 +103,14 @@ margin: 0% 5%;
   margin-left: 2%;
   text-align: justify;
   border: 2px dotted red;
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 
 .project_individual_description h3{
  font-size: larger;
  font-family: sans-serif;
  font-style: oblique;
- margin: auto;
+ text-align: center;
 } 
 
 /* github link icon */
