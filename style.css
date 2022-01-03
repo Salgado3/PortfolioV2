@@ -8,7 +8,9 @@ body{
     display: flex; 
     flex-direction: column;
     align-items: flex-end;
-    border: 5px dotted red;
+    /* border: 5px dotted red; */
+    border-bottom: 2px solid black;
+  box-shadow: 4px 4px 3px #747070;
     background-color:rgb(145, 178, 240) ;
     margin: 0% 5%;
     position: fixed;
@@ -39,13 +41,13 @@ body{
 ul li{
 margin:auto;
 display: inline;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0% 5%;
 }
 
 /* Main portion */
 .main_container {
-    border: 2px solid rgb(17, 81, 218);
+    /* border: 2px solid rgb(17, 81, 218); */
     padding-top: 10%;
     display: flex;
     flex-direction: column;
@@ -65,23 +67,27 @@ margin: 0% 5%;
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
-  border: 10px dotted royalblue;
+  /* border: 10px dotted royalblue; */
 }
 
 .project_individual_container {
-  width: 50%;
+  width: 45%;
+  margin-bottom: 1%;
+  border: 2px solid black;
   /* flex-basis: 50%; */
-  border: 3px solid rgb(238, 33, 152);
+  /* border: 3px solid rgb(238, 33, 152); */
   justify-content: row;
+
 }
 
 .project_individual_img {
   width: 100%;
-  height: 250px;
+  height: 50%;
   object-fit: contain;
   overflow: hidden;
-  background-color: blue;
+  border: 2px solid black;
  
 }
 .project_individual_img:hover {
@@ -98,10 +104,8 @@ margin: 0% 5%;
 }
 
 .project_individual_description {
-  margin-left: 1%;
   text-align: justify;
   border: 2px dotted red;
-  flex-basis: 30%;
   height: 50%;
   overflow:auto;
 }
