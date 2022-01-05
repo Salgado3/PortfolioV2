@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(236, 230, 221);
+  background-color: rgb(49, 49, 48);
 }
 .navBar_div{
     width: 90%;
@@ -56,6 +56,7 @@ margin: 0% 5%;
     
 }
 .about_div {
+  color: white;
   height:5%;
   justify-content: center;
   margin: 1% 1%;
@@ -79,7 +80,7 @@ margin: 0% 5%;
   /* flex-basis: 50%; */
   /* border: 3px solid rgb(238, 33, 152); */
   justify-content: row;
-
+  background-color: seashell;
 }
 
 .project_individual_img {
