@@ -77,10 +77,14 @@ margin: 0% 5%;
   width: 45%;
   margin-bottom: 1%;
   border: 2px solid black;
-  /* flex-basis: 50%; */
-  /* border: 3px solid rgb(238, 33, 152); */
   justify-content: row;
   background-color: seashell;
+  transition: .55s;
+  opacity: .95;
+}
+.project_individual_container:hover {
+  border:3px solid rgb(9, 234, 255);
+  opacity: 1;
 }
 
 .project_individual_img {
@@ -91,13 +95,11 @@ margin: 0% 5%;
   border: 2px solid black;
  
 }
-.project_individual_img:hover {
-  border:3px solid rgb(9, 234, 255);
-}
+
 
 .project_imgs {
   width:100%;
-  border: 3px solid black;
+  border-bottom: 2px solid black;
   opacity: .95;
 }
 .project_imgs:hover {
@@ -106,9 +108,9 @@ margin: 0% 5%;
 
 .project_individual_description {
   text-align: justify;
-  border: 2px dotted red;
   height: 50%;
-  overflow:auto;
+  width: 90%;
+  margin: 0% 5%;
 }
 
 .project_individual_description h3{
