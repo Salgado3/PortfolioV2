@@ -3,32 +3,20 @@ body{
   background-color: rgb(49, 49, 48);
 }
 .navBar_div{
-    width: 90%;
-    height: 25%;
+    width: 100%;
+    height: 15%;
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 2px solid black;
-  box-shadow: 4px 4px 3px #747070;
+    box-shadow: 4px 4px 3px #747070;
     background-color:rgb(145, 178, 240) ;
-    margin: 0% 5%;
+    margin: 0% 0%;
     position: fixed;
     z-index: 1;
 }
 
-.navBar_img_div {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: blue;
-    
-}
-.navBar_img {
-  width:100%;
-  
-}
 .navBar_list_div a {
   color: rgb(0, 0, 0);
     font-size: 24px;
@@ -65,6 +53,7 @@ margin: 0% 5%;
     margin: 0% 5%;
     
 }
+
 .about_div {
   color: white;
   height:5%;
@@ -72,8 +61,23 @@ margin: 0% 5%;
   margin: 1% 1%;
   font-size: 20px;
   text-align: justify;
+  flex-direction: row;
 }
 
+.about_img_div {
+  height: 10%;
+  width: 7.5%;
+}
+.about_img_div > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.about_div_description {
+  width: auto;
+}
 
 .projects_div {
   width: 100%;
